@@ -29,7 +29,8 @@ Runtime override ENV
 
 [docker build](https://docs.docker.com/engine/reference/commandline/build/)
   - `$ docker build [OPTIONS] PATH | URL | -`
-  - [URL](https://docs.docker.com/engine/reference/commandline/build/#git-repositories)
+  - [URL](https://docs.docker.com/engine/reference/commandline/build/#git-repositories)  
+    e.g. `docker build  https://github.com/vincenthome/sample-docker-arg-env.git#main` (main is the branch name)
   - [--build-arg](https://docs.docker.com/engine/reference/commandline/build/#set-build-time-variables---build-arg)
 
 [docker run](https://docs.docker.com/engine/reference/commandline/run/)
